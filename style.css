@@ -1,0 +1,232 @@
+h1.one {
+	font-family: monospace;
+	background-color: white;
+	font-weight: 600;
+	text-align: center;
+}
+p.one {
+	font-weight: 600;
+}
+p.small {
+	font-variant: small-caps;
+}
+p.text {
+	color: green;
+}
+h1.important {
+	color: #808080;
+}
+td.mon {
+	vertical-align: bottom;
+}
+span.sup {
+	vertical-align: super;
+}
+h1.decor {
+	text-decoration: underline;
+	text-indent: 60px;
+	text-shadow: 5px 2px 4px #F5F5DC;
+}
+h3.shadow {
+	text-shadow: -5px -3px 1px gray;
+	text-transform: capitalize;
+}
+span.transform {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+p.border {
+	padding: 5px;
+	border: 5px solid green;
+	border-width: 2px;
+}
+h1.border {
+	padding: 10px;
+	border-style: dashed;
+	border-width: 2px;
+	border-color: #FFBF00
+}
+body.one {
+	background-image: url("https://unsplash.com/photos/ieUpRjOAPlo/download?force=true");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-image: url("https://unsplash.com/photos/ieUpRjOAPlo/download?force=true");
+	-webkit-background-repeat: no-repeat;
+	-webkit-background-attachment: fixed;
+}
+p.next-page {
+	text-shadow: 5px 2px 4px gray;
+	color: white;
+	background-color: black;
+	text-align: center;
+	height: 20px;
+	width: 320px;
+	margin-left: 535px;
+}
+ol.disc {
+	list-style-image: url("http://www.sololearn.com/images/bullet.jpg");
+	list-style-position: inside;
+}
+a:hover {
+	color: red;
+}
+a:link {
+	text-decoration: none;
+}
+ol.fixed {
+	position: fixed;
+	top: 100px;
+	right: 5px;
+	color:;
+}
+form.position {
+	position: fixed;
+	top: 85px;
+	right: 500px;
+}
+div.position {
+	position: fixed;
+	top: 5px;
+	left: 5px;
+}
+img.float {
+	float: right;
+}
+img.floatone {
+	float: left;
+	width: 120px;
+	margin-right: 10px;
+}
+p.floatone {
+	float: left;
+	width: 120px;
+}
+div.overflow {
+	width: 150px;
+	height: 150px;
+	margin-right: 10px;
+	background-color: green;
+	float: left;
+	overflow: auto;
+	border: 1px;
+	margin-left: 10px;
+	border-radius: 50%;
+}
+div.z-index {
+	z-index: 3;
+	position: relative;
+	background-color: #8EC4D0;
+	margin-bottom: 15px;
+	width: 120px;
+	height: 120px;
+	color: #fff;
+	float: left;
+}
+div.z-indextwo {
+	z-index: 2;
+	position: relative;
+	background-color: #FF4D4D;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+    margin-left: -50px;
+    margin-top:60px;
+	float: left;
+}
+.secondbody {
+	background-image:linear-gradient(blue, yellow, green, pink); url();
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+footer.footer-frist {
+	height: 200px;
+	width: 100%;
+	float: right;
+	background-color: #800020;
+	border: 1px;
+	-webkit-border-radius: 24px;
+	box-shadow:inset 5px 10px 10px #FFF700,
+				inset -5px -10px 10px #BFFF00;
+				margin-top: 10px;
+				align-items: center;
+
+}
+ul.display {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	align-items: center;
+	margin-left: 590px;
+}
+footer h5 {
+	height: 20px;
+	width: 100px;
+	background-color: #fff;
+	text-align: center;
+	color: #960018;
+	border: 1;
+	border-radius: 5px;
+	margin-left: 50%;
+	margin-right: 5px;
+}
+footer ul li {
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+}
+footer ul li a {
+	padding: 10px; 
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+    background-color: #6F4E37;
+    border: 1px;
+    border-radius: 24px;
+    transition: .5s ease;
+}
+div.animation {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: abcde;
+	animation-duration: 5s;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 50px;
+	word-wrap: break-word;
+	overflow: auto;
+	animation-iteration-count: infinite;
+}
+@keyframes abcde {
+	0% {background-color: red;}
+	50% {background-color: green;}
+	100% {background-color: yellow;}
+}
+div.animation-two {
+	height: 100px;
+	background-color: white;
+	animation-name: colorproperty;
+	animation-duration: 5s;
+	animation-direction: reverse;
+	float: left;
+	animation-iteration-count: infinite;
+	margin-left: 5px;
+}
+@keyframes colorproperty {
+	from { width: 0px; }
+	to { width: 100px; }
+}
+body div img {
+	filter: hue-rotate(180deg);
+}
+footer ul li a:hover {
+	background-color: green;
+	text-decoration: underline;
+	color: white;
+	underline-color: yellow;
+}
