@@ -1,0 +1,109 @@
+@import 'utilities.css'
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smotting: antialias;
+}
+header {
+	background-color: #161616;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 93%, 0 100%);
+}
+.container {
+	max-width: 1152px;
+	padding: 0px 15px;
+	margin: 0 auto;
+}
+header nav .left a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 20px;
+	text-transform: uppercase;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+}
+header nav .left a:hover {
+	color: #3DCFD3;
+}
+.flex {
+	display: flex;
+	align-items: center;
+}
+.justify {
+	justify-content: space-between;
+}
+body {
+	font-family: 'Yellowtail', cursive;
+}
+header nav {
+	padding: 20px 0px;
+}
+.branding {
+	margin-right: 10px;
+}
+.btn {
+	padding: 10px 30px;
+	font-size: 1rem;
+	font-weight: 750;
+	border: 2px solid transparent;
+	outline: none;
+	cursor: pointer;
+	background: #3DCFD3;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+}
+.btn:hover {
+	background-color: transparent;
+	color: #3DCFD3;
+	border-color: #3DCFD3;
+	}
+	.hero {
+		display: flex;
+		align-items: center;
+	}
+	.hero img {
+		width: 400px;
+	}
+	.hero .hero-right {
+		color: #fff;
+		margin-left: 15px;
+	}
+	.hero .hero-right h6 {
+		font-size: 30px;
+		color: #3DCFD3;
+	}
+	.hero .hero-right h1 {
+		font-size: 4rem;
+		line-height: 1.2;
+		font-weight: 100;
+	}
+	.one {
+		color: #3DCFD3;
+	}
+	.hero .hero-right p {
+		line-height: 1.9;
+		margin-bottom: 20px;
+	}
+	.button {
+		background-color: transparent;
+		color: #3DCFD3;
+		border: 2px solid #3DCFD3;
+		padding: 5px 10px;
+		text-decoration: none;
+	}
+	.button:hover {
+		background-color: #3DCFD3;
+		color: #fff;
+		border: 1px solid #fff;
+		text-decoration: underline;
+		unicode-range: left-right;
+	}
