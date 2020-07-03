@@ -83,3 +83,34 @@ p {
 .social img:hover {
 	transform: scale(0.8);
 }
+.upper {
+	height: 100px;
+	weight: 100%;
+	background-color: #000;
+	color: #fff;
+}
+.upper-log {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.anchor {
+	display: flex;
+	text-decoration: none;
+	float: right;
+}
+.anchor a {
+	color: #fff;
+	margin-top: -32px;
+	margin-right: 5px;
+	padding: 5px 10px;
+	text-decoration: none;
+	border: 2px solid #fff;
+	font-size: 20px;
+}
+.anchor a:hover {
+	
+	background-color: #2ebf55;
+	text-decoration: underline;
+	underline-color: red;
+	color: #705942;
+}
