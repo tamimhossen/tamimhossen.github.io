@@ -13,6 +13,7 @@ body {
 	background-image: url(../images/laptop-lady.jpg);
 	background-position: center;
 	background-size: cover;
+        background-repeat: no-repeat; 
 }
 .input {
 	width: 100%;
