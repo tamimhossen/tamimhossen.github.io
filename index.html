@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="logo.jpg">
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fas fa-window-close" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="#"> <li>HOME</li> </a>
+                    <a href="#"> <li>ABOUT</li> </a>
+                    <a href="#"> <li>RECIPE</li> </a>
+                </ul>
+                <button type="button" class="btn">SIGN UP</button>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </div>
+        </div>
+
+        <div class="banner-title">
+            <h1>Food <span>doesn't have <br> a religion.</span> Its a religion</h1>
+            <button type="button" class="btn">EXPLORE</button>
+        </div>
+
+        <div class="vertical-bar">
+            <div class="search-icon">
+                <i class="fa fa-th-list"></i>
+                <i class="fa fa-search"></i>
+            
+            </div>
+            <div class="social-icon">
+                <a href="#">Tamim</a>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-pinterest"></i>
+            </div>
+        </div>
+
+        <div class="notification">
+
+            <div class="content">
+                <small>Subscribe easy tutorial youtube chanel</small>
+                <p><a href="#">Pre</a> <a href="#">Next</a></p>
+            </div>
+            <div class="notification-img">
+                <img src="video.jpg">
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        var show = document.getElementById("nav-links")
+        function showMenu() {
+            show.style.right = "0";
+        }
+
+        function closeMenu() {
+            show.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
